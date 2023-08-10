@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Startup Idea Submission</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Submit Your Startup Idea</h2>
+    <form action="idea_submission_process.php" method="post">
+      <label for="idea-name">Idea Name:</label>
+      <input type="text" id="idea-name" name="idea_name" required>
+
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" rows="4" required></textarea>
+
+      <label for="industry">Industry:</label>
+      <input type="text" id="industry" name="industry" required>
+
+      <label for="business-model">Business Model:</label>
+      <textarea id="business-model" name="business_model" rows="4" required></textarea>
+
+      <label for="market-analysis">Market Analysis:</label>
+      <textarea id="market-analysis" name="market_analysis" rows="4" required></textarea>
+
+      <label for="team">Team:</label>
+      <textarea id="team" name="team" rows="4" required></textarea>
+
+      <label for="funding-request">Funding Request:</label>
+      <input type="text" id="funding-request" name="funding_request" required>
+
+      <button type="submit">Submit Idea</button>
+    </form>
+    <p>Back to <a href="login.html">Login</a></p>
+  </div>
+</body>
+</html>
